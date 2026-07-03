@@ -23,8 +23,8 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     age = st.number_input("Yaş", min_value=15, max_value=100, value=30, help="Yaşınız (yıl)")
-    weight = st.number_input("Kilo (kg)", min_value=30.0, max_value=300.0, value=170.0, step=0.1, help="Kilonuz (kg)")
-    height = st.number_input("Boy (cm)", min_value=130.0, max_value=250.0, value=70.0, step=0.1, help="Boyunuz (cm)")
+    weight = st.number_input("Kilo (kg)", min_value=40.0, max_value=250.0, value=80.0, step=0.1, help="Kilonuz (kg)")
+    height = st.number_input("Boy (cm)", min_value=130.0, max_value=250.0, value=175.0, step=0.1, help="Boyunuz (cm)")
     weight=weight * 2.20462
     height = height / 2.54
     neck = st.number_input("Boyun Çevresi (cm)", min_value=28.0, max_value=50.0, value=38.0, step=0.1, help="Boyun çevresi (cm)")
