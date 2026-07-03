@@ -22,8 +22,8 @@ language = st.sidebar.selectbox(
 # Dil paketleri
 translations = {
     "Türkçe": {
-        "title": "🏋️‍♂️ Yapay Zeka ile Vücut Yağ Oranı Hesaplayıcı",
-        "description": "Lütfen aşağıdaki anatomik ölçülerinizi giriniz.",
+        "title": "Machine Learning Body Fat Estimator",
+        "description": "Estimate your body fat percentage using a machine learning model trained on anthropometric measurements and underwater weighing reference data",
         "age": "Yaş",
         "age_help": "Yaşınız (yıl)",
         "weight": "Kilo (kg)",
@@ -55,8 +55,8 @@ translations = {
         "metric_label": "Tahmin Edilen Vücut Yağ Oranı",
     },
     "English": {
-        "title": "🏋️‍♂️ Body Fat Percentage Calculator with AI",
-        "description": "Please enter your anatomical measurements below.",
+        "title": "Machine Learning Body Fat Estimator",
+        "description": "Estimate your body fat percentage using a machine learning model trained on anthropometric measurements and underwater weighing reference data",
         "age": "Age",
         "age_help": "Your age (years)",
         "weight": "Weight (kg)",
