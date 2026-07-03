@@ -8,7 +8,7 @@ import pandas as pd # Import pandas to create a DataFrame for prediction
 @st.cache_resource
 def load_model():
     # Kendi kaydettiğin model dosyasının adını buraya yazmalısın
-    return joblib.load("vucut_yag_modeli.pkl")
+    return joblib.load("Model.pkl")
 
 model = load_model()
 
